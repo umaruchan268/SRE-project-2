@@ -8,7 +8,7 @@ terraform {
 
  provider "aws" {
    region = "us-east-2"
-   profile = "AKIA542XT4NUL6CKZFCR"
+    #profile = "default"
    
    default_tags {
      tags = local.tags
